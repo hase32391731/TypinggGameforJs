@@ -1,0 +1,73 @@
+body{
+    padding-top:40px;
+    font-family:'Courier New',monospace;
+    text-align:center;
+}
+
+#title{
+    font-size:100px;
+    font-family:impact;
+}
+
+#gameEnd{
+    font-size:60px;
+}
+
+.lastScoreDisplay{
+    margin-left: auto;
+    margin-right: auto;
+    width:50%;
+}
+
+.lastScore{
+    text-align:right;
+    font-size:30px;
+}
+
+
+
+#count{
+    font-size:60px;
+}
+
+#start{
+    font-size:48px;
+    background: #fd9535;
+    border-radius: 4px;
+    box-shadow: inset 0 2px 0 rgba(255,255,255,0.2), inset 0 -2px 0 rgba(0, 0, 0, 0.05);
+    cursor: pointer;
+}
+
+#start:hover{
+opacity:0.5;
+}
+#start:active {
+    box-shadow: 0 0 2px rgba(0, 0, 0, 0.30);
+  }
+
+#back{
+    font-size:48px;
+    background: #668ad8;
+    border-radius: 4px;
+    box-shadow: inset 0 2px 0 rgba(255,255,255,0.2), inset 0 -2px 0 rgba(0, 0, 0, 0.05);
+    text-decoration: none;
+    color:black;
+}
+
+#back:hover{
+    opacity:0.5;
+    }
+
+#back:active {
+    box-shadow: 0 0 2px rgba(0, 0, 0, 0.30);
+  }
+
+#target{
+    font-size:48px;
+    letter-spacing:3px;
+
+}
+
+.info{
+    color:#ccc;
+}
